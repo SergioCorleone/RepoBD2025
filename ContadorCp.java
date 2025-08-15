@@ -7,7 +7,7 @@ import java.util.TreeMap;
 public class ContadorCp {
     public static void main(String[] args) {
         //Declarando Strings que ayudaran a poder leer nuestro .csv con BufferedReader
-        String RutaArchivo = "C:\\Users\\Gigabyte\\IdeaProjects\\RepoBD2025\\codigos_postales_hmo.csv";
+        String RutaArchivo = ".\\codigos_postales_hmo.csv";
         String linea;
         String separador = ",";
 
