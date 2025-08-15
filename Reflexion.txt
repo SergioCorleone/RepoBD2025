@@ -1,0 +1,22 @@
+Reflexiones:
+Este trabajo fue un reto complejo debido al tiempo en el cual no programaba en java pero poco a poco al ir 
+soltandome tuve mas seguridad y pude recordad las practicas necesarias para sortear los conflictos que podian
+sugar.
+
+Problemas:
+- Utilizar Correctamente BufferedReader: mi principal problema fue recordar la sintaxis correcta de esta herramienta
+tan util
+
+- Entender el Uso de HashMap: Es un recurso relativamente nuevo para mi, resulto muy util ya que es flexible con la
+cantidad de objetos que puedes almacenar en el.
+
+- Como Poder llenar este HashMap: El uso adecuado de la function .put es un poco enredoso de cierto modo aun que una
+vez usado queda mas claro.
+
+-Iterar haciendo uso de el HashMap: En este caso use un For o "For each" por su funcion al imprimir un mensaje por cada
+key que seria el codigo postal en este caso. 
+
+-Ordenar el resultado de el HashMap: al correrlo y asegurarme que servia y coincidia el numero de veces que se repetia un
+codigo postal con lo mostrado en el .csv, me di cuenta que los codigos postales no tenian un orden especifico debido a la 
+naturaleza de el HashMap que guarda sus elementos sin orden alguno, por lo que me decidi por usar un TreeMap que permite
+mantener el orden de los objetos leidos
